@@ -2,7 +2,7 @@
 Python script that effectively copies all playlists and music from Google Play Music to Spotify
 
 ## Requirements  
-  **Python 3**  
+**Python 3**  
 *   **macOS**  
 paste the code below into bash  
 ```
@@ -22,11 +22,11 @@ while(![System.IO.File]::Exists("$($ENV:USERPROFILE)\Downloads\python-3.8.6.exe"
 }
 . "$($ENV:USERPROFILE)\Downloads\python-3.8.6.exe" /passive InstallAllUsers=1 PrependPath=1 Include_debug=1 Include_symbols=1
 ```
-*   **spotipy**  
+**spotipy**  
 ```
-       pip3 install spotipy
+pip3 install spotipy
+```  
+**gmusicapi**  
 ```
-*   **gmusicapi**  
-```
-       pip3 install gmusicapi
+pip3 install gmusicapi
 ```
