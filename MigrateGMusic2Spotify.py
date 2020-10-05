@@ -26,7 +26,8 @@ if not api.oauth_login(api.FROM_MAC_ADDRESS):
     login=api.perform_oauth()
     api.oauth_login(api.FROM_MAC_ADDRESS)
 
-spuser = input("Enter your Spotify user id and strike 'Enter'(it's a random string of letters and numbers and not your email address): ")
+print("We need your Spotify username. It is a random string of letters and numbers. If you don't know what it is, then visit: https://www.spotify.com/us/account/overview/ and then find the value next to 'username'")
+spuser = input("Enter your Spotify user id and strike 'Enter': ")
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="dc0fc73dadcc4ddbbfd275a695e7a380",
                                                client_secret="844b859597ec4bbca0eb3c7d1ccb397d",
                                                redirect_uri="https://nanick.org",
