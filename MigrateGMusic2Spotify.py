@@ -30,7 +30,7 @@ print("We need your Spotify username. It is a random string of letters and numbe
 spuser = input("Enter your Spotify user id and strike 'Enter': ")
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="dc0fc73dadcc4ddbbfd275a695e7a380",
                                                client_secret="844b859597ec4bbca0eb3c7d1ccb397d",
-                                               redirect_uri="https://nanick.org",
+                                               redirect_uri="https://nstevens1040.github.io/OAuth2CodeParser/",
                                                scope="playlist-modify-public playlist-modify-private user-library-modify"))
 
 if not sys.platform == 'win32':
