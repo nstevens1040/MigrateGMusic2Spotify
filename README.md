@@ -51,8 +51,10 @@ pip3 install spotipy
 ```
 pip3 install gmusicapi
 ```  
-To install both spotipy and gmusicapi at once. Clone this repository. Change your working directory to **MigrateGMusic2Spotify** and run  
+To install both spotipy and gmusicapi at once. Use **Git** to clone this repository.  
 ```
+git clone "https://github.com/nstevens1040/MigrateGMusic2Spotify.git"
+cd MigrateGMusic2Spotify
 pip3 install -r requirements.txt
 ```  
 
