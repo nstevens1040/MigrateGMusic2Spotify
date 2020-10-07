@@ -10,7 +10,7 @@ Python script that parses your Google Play Music playlist names along with the t
 ## Requirements  
 **Python 3**  
 *   **macOS**  
-paste the code below into bash  
+paste the code below into the terminal  
 ```
 cd ~/
 curl "https://www.python.org/ftp/python/3.8.6/python-3.8.6-macosx10.9.pkg" --output "python-3.8.6-macosx10.9.pkg"
