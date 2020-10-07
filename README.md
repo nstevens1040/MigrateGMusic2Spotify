@@ -1,5 +1,5 @@
 # MigrateGMusic2Spotify
-Python script that effectively copies all playlists and music from Google Play Music to Spotify
+Python script that parses your Google Play Music playlist names along with the titles of the songs in those playlists, creates Spotify playlists with the same names as your Google playlists, and then uses the song titles to search for your music on Spotify. If the search returns a result list, then the very first search result is added to the correct Spotify playlist. Ymmv with regard to whether the search will return accurate results.
 
 ## Requirements  
 **Python 3**  
