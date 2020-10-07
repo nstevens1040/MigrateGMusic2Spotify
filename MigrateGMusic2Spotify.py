@@ -56,6 +56,8 @@ for i in api.get_all_user_playlist_contents():
                 print("performing Spotify search for: " + track)
                 if track.endswith('mp3') and re.findall("\d\d\d\d\d\d\d\d\d\d\d\d\d",track):
                     track = track.strip('-').split('-')[0]
+                if track.endswith('mp3'):
+                    track = track.replace(".mp3","")
                 results = sp.search(q=track,limit=50,offset=0,type='track')
                 if results:
                     splog.write("    " + results['tracks']['items'][0]['name'] + " by " + results['tracks']['items'][0]['artists'][0]['name'])
